@@ -17,12 +17,24 @@ body {
 #header,
 #content,
 #sidenav,
-#footer {
+#footer,
+#dias,
+#cardapio {
   border: 1px solid green;
 }
 
 #header {
   grid-area: header;
+}
+#cardapio {
+  grid-area: cardapio;
+  display: table;
+}
+
+
+
+#dias {
+  grid-area: dias;
 }
 #content {
   grid-area: content;
