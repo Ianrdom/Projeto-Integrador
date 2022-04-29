@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  grid-template-rows: 10% auto 10%;
+  grid-template-areas:
+    "header header"
+    "sidenav content"
+    "footer footer";
+}
+
+#header,
+#content,
+#sidenav,
+#footer {
+  border: 1px solid green;
+}
+
+#header {
+  grid-area: header;
+}
+#content {
+  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer {
+  grid-area: footer;
+}
