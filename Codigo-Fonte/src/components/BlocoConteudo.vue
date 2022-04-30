@@ -5,5 +5,8 @@ export default { components: { Cardapio, Dias } };
 </script>
 
 <template>
-  <main id="conteudo"><dias /> <cardapio /></main>
+  <main id="conteudo">
+    <Dias />
+    <Cardapio />
+  </main>
 </template>
