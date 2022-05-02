@@ -1,3 +1,3 @@
 <template>
-  <footer id="footer">rodape</footer>
+  <footer id="footer"></footer>
 </template>

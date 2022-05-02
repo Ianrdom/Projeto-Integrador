@@ -4,13 +4,14 @@ body {
 }
 
 #app {
+  background-color: #a3c99d;
   height: 100%;
   display: grid;
   grid-template-columns: 15% 1fr;
   grid-template-rows: 10% auto 10%;
   grid-template-areas:
     "header header"
-    "sidenav content"
+    "content content"
     "footer footer";
 }
 
@@ -27,18 +28,20 @@ body {
   grid-area: header;
 }
 #cardapio {
-  grid-area: cardapio;
-  display: table;
+  /* grid-area: cardapio; */
+  /* display: table; */
 }
 
 #dias {
-  grid-area: dias;
+  /* grid-area: dias; */
+  display: flex;
 }
 #content {
   grid-area: content;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 #footer {
   grid-area: footer;
+  background-color: #83b97a;
 }
