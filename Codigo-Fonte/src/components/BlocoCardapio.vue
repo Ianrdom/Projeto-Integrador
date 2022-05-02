@@ -3,11 +3,22 @@ export default {
   data() {
     return {
       cardapio: [
-        { prato: "Principal", comida: ["Arroz", "Feijão"] },
-        { prato: "Guarnição", comida: ["Maionese"] },
-        { prato: "Principal", comida: ["Arroz", "Feijão"] },
-        { prato: "Guarnição", comida: ["Maionese"] },
-        { prato: "Principal", comida: ["Arroz", "Feijão"] },
+        { prato: "Principal", comida: ["Carne Moída Com Batata"] },
+        { prato: "Proteína", comida: ["Almôndega de Soja"] },
+        {
+          prato: "Acompanhamento",
+          comida: [
+            "Espaguete Ao Alho e Óleo",
+            "Arroz",
+            "Arroz Integral",
+            "Feijão",
+          ],
+        },
+        {
+          prato: "Saladas",
+          comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
+        },
+        { prato: "Sobremesa", comida: ["Banana"] },
       ],
     };
   },
