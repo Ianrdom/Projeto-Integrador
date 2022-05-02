@@ -34,7 +34,7 @@ export default {
 
 <style>
 .cardapio {
-  width: 70%;
+  width: 100%;
   border: 1px solid black;
   display: flex;
   flex-wrap: wrap;

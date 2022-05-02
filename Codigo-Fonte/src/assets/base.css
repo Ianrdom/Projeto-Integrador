@@ -7,20 +7,15 @@ body {
   background-color: #a3c99d;
   height: 100%;
   display: grid;
-  grid-template-columns: 15% 1fr;
+  grid-template-columns: 30% 1fr 43%;
   grid-template-rows: 10% auto 10%;
   grid-template-areas:
-    "header header"
-    "content content"
-    "footer footer";
+    "header header header"
+    "aside content nada"
+    "footer footer footer";
 }
 
-#header,
-#content,
-#sidenav,
-#footer,
-#dias,
-#cardapio {
+#footer {
   border: 1px solid green;
 }
 
@@ -33,7 +28,6 @@ body {
 }
 
 #dias {
-  /* grid-area: dias; */
   display: flex;
 }
 #content {
