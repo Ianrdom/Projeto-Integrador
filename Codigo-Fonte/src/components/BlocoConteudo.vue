@@ -47,6 +47,69 @@ export default {
             { prato: "Sobremesa", comida: ["Banana"] },
           ],
         },
+        {
+          dia: "qua",
+          cardapio: [
+            { prato: "Principal", comida: ["Carne Suína Com Batata"] },
+            { prato: "Proteína", comida: ["qua de Soja"] },
+            {
+              prato: "Acompanhamento",
+              comida: [
+                "Espaguete Ao Alho e Óleo",
+                "Arroz",
+                "Arroz Integral",
+                "Feijão",
+              ],
+            },
+            {
+              prato: "Saladas",
+              comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
+            },
+            { prato: "Sobremesa", comida: ["Banana"] },
+          ],
+        },
+        {
+          dia: "qui",
+          cardapio: [
+            { prato: "Principal", comida: ["Carne Suína Com Batata"] },
+            { prato: "Proteína", comida: ["quio de Soja"] },
+            {
+              prato: "Acompanhamento",
+              comida: [
+                "Espaguete Ao Alho e Óleo",
+                "Arroz",
+                "Arroz Integral",
+                "Feijão",
+              ],
+            },
+            {
+              prato: "Saladas",
+              comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
+            },
+            { prato: "Sobremesa", comida: ["Banana"] },
+          ],
+        },
+        {
+          dia: "sex",
+          cardapio: [
+            { prato: "Principal", comida: ["Carne Suína Com Batata"] },
+            { prato: "Proteína", comida: ["sex de Soja"] },
+            {
+              prato: "Acompanhamento",
+              comida: [
+                "Espaguete Ao Alho e Óleo",
+                "Arroz",
+                "Arroz Integral",
+                "Feijão",
+              ],
+            },
+            {
+              prato: "Saladas",
+              comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
+            },
+            { prato: "Sobremesa", comida: ["Banana"] },
+          ],
+        },
       ],
       cardapioAtual: [],
     };

@@ -9,8 +9,12 @@
     <p class="dia-da-semana" @click="$emit('selecionarDia', 'qua')">
       Quarta-Feira
     </p>
-    <p class="dia-da-semana">Quinta-Feira</p>
-    <p class="dia-da-semana">Sexta-Feira</p>
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'qui')">
+      Quinta-Feira
+    </p>
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'sex')">
+      Sexta-Feira
+    </p>
   </nav>
 </template>
 

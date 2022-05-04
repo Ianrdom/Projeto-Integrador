@@ -40,3 +40,7 @@ body {
   grid-area: footer;
   background-color: #83b97a;
 }
+#dias .dia-da-semana:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
