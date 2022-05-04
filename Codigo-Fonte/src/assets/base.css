@@ -21,9 +21,22 @@ body {
 }
 
 #header {
+  display: flex;
   grid-area: header;
+  border: 1px solid black;
+  justify-content: space-between;
 }
 
+li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu-header,
+.menu-footer {
+  display: flex;
+}
 #cardapio {
   /* grid-area: cardapio; */
   /* display: table; */
@@ -41,7 +54,17 @@ body {
   grid-area: footer;
   background-color: #83b97a;
 }
+
 #dias .dia-da-semana:hover {
   background-color: lightgrey;
   cursor: pointer;
+}
+#header img {
+  margin: 10px;
+}
+
+.items-menu:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
 }
