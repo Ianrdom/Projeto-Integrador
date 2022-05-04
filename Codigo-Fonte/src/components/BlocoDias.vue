@@ -1,8 +1,14 @@
 <template>
   <nav id="dias">
-    <p class="dia-da-semana">Segunda-Feira</p>
-    <p class="dia-da-semana">Terça-Feira</p>
-    <p class="dia-da-semana">Quarta-Feira</p>
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'seg')">
+      Segunda-Feira
+    </p>
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'ter')">
+      Terça-Feira
+    </p>
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'qua')">
+      Quarta-Feira
+    </p>
     <p class="dia-da-semana">Quinta-Feira</p>
     <p class="dia-da-semana">Sexta-Feira</p>
   </nav>

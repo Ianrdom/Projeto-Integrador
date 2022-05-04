@@ -1,27 +1,6 @@
 <script>
 export default {
-  data() {
-    return {
-      cardapio: [
-        { prato: "Principal", comida: ["Carne Moída Com Batata"] },
-        { prato: "Proteína", comida: ["Almôndega de Soja"] },
-        {
-          prato: "Acompanhamento",
-          comida: [
-            "Espaguete Ao Alho e Óleo",
-            "Arroz",
-            "Arroz Integral",
-            "Feijão",
-          ],
-        },
-        {
-          prato: "Saladas",
-          comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
-        },
-        { prato: "Sobremesa", comida: ["Banana"] },
-      ],
-    };
-  },
+  props: ["cardapio"],
 };
 </script>
 
@@ -30,9 +9,7 @@ export default {
     <h1>Cardápio</h1>
     <div class="cardapio">
       <template v-for="(prato, i) of cardapio" :key="i">
-        <div class="prato">
-          {{ prato.prato }}
-        </div>
+        <div class="prato">{{ prato.prato }}</div>
         <div class="comida">
           <ul>
             <li v-for="(comida, j) of prato.comida" :key="j">{{ comida }}</li>
@@ -51,15 +28,19 @@ export default {
   flex-wrap: wrap;
 }
 .prato {
-  width: 20%;
-  border-bottom: 1px solid saddlebrown;
+  width: 35%;
+  border-bottom: 1px solid black;
   background-color: azure;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .comida {
-  min-width: 80%;
-  border-bottom: 1px solid saddlebrown;
-  background-color: aqua;
+  min-width: 65%;
+  border-bottom: 1px solid black;
+  background-color: lightgray;
   flex: 1;
 }
 main h1 {
