@@ -3,16 +3,16 @@
     <p class="dia-da-semana" @click="$emit('selecionarDia', 'seg')">
       Segunda-Feira
     </p>
-    <p class="dia-da-semana" @click="$emit('selecionarDia', 'ter')">
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'terca')">
       Terça-Feira
     </p>
-    <p class="dia-da-semana" @click="$emit('selecionarDia', 'qua')">
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'quarta')">
       Quarta-Feira
     </p>
-    <p class="dia-da-semana" @click="$emit('selecionarDia', 'qui')">
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'quinta')">
       Quinta-Feira
     </p>
-    <p class="dia-da-semana" @click="$emit('selecionarDia', 'sex')">
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'sexta')">
       Sexta-Feira
     </p>
   </nav>

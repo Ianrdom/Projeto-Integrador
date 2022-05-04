@@ -9,7 +9,7 @@ export default {
           dia: "seg",
           cardapio: [
             { prato: "Principal", comida: ["Carne Moída Com Batata"] },
-            { prato: "Proteína", comida: ["Almôndega de Soja"] },
+            { prato: "Proteína Vegetariana", comida: ["Almôndega de Soja"] },
             {
               prato: "Acompanhamento",
               comida: [
@@ -27,87 +27,70 @@ export default {
           ],
         },
         {
-          dia: "ter",
+          dia: "terca",
           cardapio: [
             { prato: "Principal", comida: ["Carne Suína Com Batata"] },
-            { prato: "Proteína", comida: ["Sushi de Soja"] },
+            { prato: "Proteína Vegetariana", comida: ["Ovo Mexido"] },
             {
               prato: "Acompanhamento",
-              comida: [
-                "Espaguete Ao Alho e Óleo",
-                "Arroz",
-                "Arroz Integral",
-                "Feijão",
-              ],
+              comida: ["Arroz", "Arroz Integral", "Feijão"],
             },
             {
               prato: "Saladas",
-              comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
+              comida: ["Pimentão", "Repolho", "Colve-Flor"],
             },
-            { prato: "Sobremesa", comida: ["Banana"] },
+            { prato: "Sobremesa", comida: ["Gelatina de Uva"] },
           ],
         },
         {
-          dia: "qua",
+          dia: "quarta",
           cardapio: [
-            { prato: "Principal", comida: ["Carne Suína Com Batata"] },
-            { prato: "Proteína", comida: ["qua de Soja"] },
+            { prato: "Principal", comida: ["Fricasse de Frango"] },
+            { prato: "Proteína Vegetariana", comida: ["Ovo Frito"] },
             {
               prato: "Acompanhamento",
-              comida: [
-                "Espaguete Ao Alho e Óleo",
-                "Arroz",
-                "Arroz Integral",
-                "Feijão",
-              ],
+              comida: ["Creme de Milho", "Arroz", "Arroz Integral", "Feijão"],
             },
             {
               prato: "Saladas",
-              comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
+              comida: ["Rabanete", "Tomate", "Alface"],
             },
-            { prato: "Sobremesa", comida: ["Banana"] },
+            { prato: "Sobremesa", comida: ["Maçã"] },
           ],
         },
         {
-          dia: "qui",
+          dia: "quinta",
           cardapio: [
-            { prato: "Principal", comida: ["Carne Suína Com Batata"] },
-            { prato: "Proteína", comida: ["quio de Soja"] },
+            { prato: "Principal", comida: ["Frango Com Batata"] },
+            {
+              prato: "Proteína Vegetariana",
+              comida: ["Strogonoff de Palmito"],
+            },
             {
               prato: "Acompanhamento",
-              comida: [
-                "Espaguete Ao Alho e Óleo",
-                "Arroz",
-                "Arroz Integral",
-                "Feijão",
-              ],
+              comida: ["Batata Frita", "Arroz", "Arroz Integral", "Feijão"],
             },
             {
               prato: "Saladas",
               comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
             },
-            { prato: "Sobremesa", comida: ["Banana"] },
+            { prato: "Sobremesa", comida: ["Arroz Doce"] },
           ],
         },
         {
-          dia: "sex",
+          dia: "sexta",
           cardapio: [
             { prato: "Principal", comida: ["Carne Suína Com Batata"] },
-            { prato: "Proteína", comida: ["sex de Soja"] },
+            { prato: "Proteína Vegetariana", comida: ["Carne de Soja"] },
             {
               prato: "Acompanhamento",
-              comida: [
-                "Espaguete Ao Alho e Óleo",
-                "Arroz",
-                "Arroz Integral",
-                "Feijão",
-              ],
+              comida: ["Purê de Batata", "Arroz", "Arroz Integral", "Feijão"],
             },
             {
               prato: "Saladas",
-              comida: ["Almeirão", "Rabanete", "Repolho Colorido"],
+              comida: ["Beterraba", "Tabule", "Berinjela"],
             },
-            { prato: "Sobremesa", comida: ["Banana"] },
+            { prato: "Sobremesa", comida: ["Sagu"] },
           ],
         },
       ],
