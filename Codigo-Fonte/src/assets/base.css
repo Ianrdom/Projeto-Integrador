@@ -23,6 +23,7 @@ body {
 #header {
   grid-area: header;
 }
+
 #cardapio {
   /* grid-area: cardapio; */
   /* display: table; */

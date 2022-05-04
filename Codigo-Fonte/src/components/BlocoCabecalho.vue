@@ -1,3 +1,5 @@
 <template>
-  <header id="header">cabecalho</header>
+  <header id="header">
+    <img src="src/assets/ifc-logo.png" alt="algo" />
+  </header>
 </template>
