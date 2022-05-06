@@ -17,14 +17,3 @@
     </p>
   </nav>
 </template>
-
-<style>
-.dia-da-semana {
-  padding: 10px;
-  margin: 0px;
-}
-#dias {
-  border: 1px solid black;
-  background-color: white;
-}
-</style>

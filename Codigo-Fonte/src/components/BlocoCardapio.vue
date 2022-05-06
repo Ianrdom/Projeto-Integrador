@@ -19,31 +19,3 @@ export default {
     </div>
   </main>
 </template>
-
-<style>
-.cardapio {
-  width: 100%;
-  border: 1px solid black;
-  display: flex;
-  flex-wrap: wrap;
-}
-.prato {
-  width: 35%;
-  border-bottom: 1px solid black;
-  background-color: azure;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.comida {
-  min-width: 65%;
-  border-bottom: 1px solid black;
-  background-color: lightgray;
-  flex: 1;
-}
-main h1 {
-  text-align: center;
-}
-</style>

@@ -29,17 +29,11 @@ body {
 
 .items-menu {
   list-style: none;
-  padding: 10px;
-  margin: 10px;
 }
 
 .menu-header,
 .menu-footer {
   display: flex;
-}
-#cardapio {
-  /* grid-area: cardapio; */
-  /* display: table; */
 }
 
 #dias {
@@ -47,8 +41,6 @@ body {
 }
 #content {
   grid-area: content;
-  /* display: flex;
-  flex-wrap: wrap; */
 }
 #footer {
   grid-area: footer;
@@ -59,12 +51,56 @@ body {
   background-color: lightgrey;
   cursor: pointer;
 }
-#header img {
+.ifclogo {
   margin: 10px;
 }
-
-.items-menu:hover {
+.items-footer {
+  padding: 10px;
+  margin: 5px;
+}
+.items-footer:hover {
   cursor: pointer;
   color: blue;
   text-decoration: underline;
+}
+
+.dia-da-semana {
+  padding: 10px;
+  margin: 0px;
+}
+#dias {
+  border: 1px solid black;
+  background-color: white;
+}
+.cardapio {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.prato {
+  width: 35%;
+  border-bottom: 1px solid black;
+  background-color: azure;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comida {
+  min-width: 65%;
+  border-bottom: 1px solid black;
+  background-color: lightgray;
+  flex: 1;
+}
+main h1 {
+  text-align: center;
+}
+
+.items-header:hover {
+  cursor: pointer;
+}
+.items-header {
+  margin: 10px;
 }
