@@ -1,15 +1,11 @@
-<script>
+<script setup>
 import Rodape from "@/components/BlocoRodape.vue";
-import Conteudo from "@/components/BlocoConteudo.vue";
 import Cabecalho from "@/components/BlocoCabecalho.vue";
-
-export default {
-  components: { Rodape, Conteudo, Cabecalho },
-};
+import { /* RouterLink, */ RouterView } from "vue-router";
 </script>
 
 <template>
-  <Rodape />
-  <Conteudo />
   <Cabecalho />
+  <RouterView />
+  <Rodape />
 </template>
