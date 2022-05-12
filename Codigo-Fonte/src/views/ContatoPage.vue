@@ -3,8 +3,8 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <RouterLink to="/">Voltar</RouterLink>
-  <div class="about">
+  <div class="contato">
+    <RouterLink to="/">Voltar</RouterLink>
     <h1>Contatos</h1>
     <ul>
       <li>Telefone: 47 98765-43231</li>

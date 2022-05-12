@@ -3,8 +3,8 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <RouterLink to="/">Voltar</RouterLink>
-  <div class="about">
+  <div class="sobre">
+    <RouterLink to="/">Voltar</RouterLink>
     <h1>Sobre Nós</h1>
   </div>
 </template>
