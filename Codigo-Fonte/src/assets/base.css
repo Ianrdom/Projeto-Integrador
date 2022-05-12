@@ -58,10 +58,10 @@ body {
   padding: 10px;
   margin: 5px;
 }
-.items-footer:hover {
+a {
   cursor: pointer;
-  color: blue;
-  text-decoration: underline;
+  color: green;
+  text-decoration: none;
 }
 
 .dia-da-semana {

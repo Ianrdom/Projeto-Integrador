@@ -5,9 +5,11 @@ import { RouterLink } from "vue-router";
   <footer id="footer">
     <div class="footer">
       <ul class="menu-footer">
-        <li class="items-menu items-footer">Contato</li>
         <li class="items-menu items-footer">
-          <RouterLink to="/sobre">Sobre Nós</RouterLink>
+          <RouterLink to="/contato">Contato</RouterLink>
+        </li>
+        <li class="items-menu items-footer">
+          <RouterLink to="/sobre">Sobre</RouterLink>
         </li>
       </ul>
     </div>
