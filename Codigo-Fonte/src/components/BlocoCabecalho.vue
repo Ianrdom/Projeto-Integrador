@@ -6,7 +6,7 @@
       <ul class="menu-header">
         <li class="items-menu items-header">
           <img
-            src="src\assets\bootstrap-icons\icons\person-circle.svg"
+            src="src\assets\img-logo\person-circle.svg"
             alt="usuario"
             width="32"
             height="32"
@@ -14,7 +14,7 @@
         </li>
         <li class="items-menu items-header">
           <img
-            src="src\assets\bootstrap-icons\icons\list.svg"
+            src="src\assets\img-logo\list.svg"
             alt="menu"
             width="32"
             height="32"
