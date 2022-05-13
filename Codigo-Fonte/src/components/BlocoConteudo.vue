@@ -94,6 +94,7 @@ export default {
           ],
         },
       ],
+      // get day no javascript para o dia atual
       cardapioAtual: [],
     };
   },
