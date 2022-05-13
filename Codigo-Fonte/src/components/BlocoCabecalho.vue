@@ -1,12 +1,12 @@
 <template>
   <header id="header">
-    <img class="ifclogo" src="src/assets/ifc-logo.png" alt="algo" />
+    <img class="ifclogo" src="@/assets/ifc-logo.png" alt="algo" />
 
     <div class="header-right">
       <ul class="menu-header">
         <li class="items-menu items-header">
           <img
-            src="src\assets\img-logo\person-circle.svg"
+            src="@/assets/img-logo/person-circle.svg"
             alt="usuario"
             width="32"
             height="32"
@@ -14,7 +14,7 @@
         </li>
         <li class="items-menu items-header">
           <img
-            src="src\assets\img-logo\list.svg"
+            src="@/assets/img-logo/list.svg"
             alt="menu"
             width="32"
             height="32"
