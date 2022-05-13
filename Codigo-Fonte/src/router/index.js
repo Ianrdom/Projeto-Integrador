@@ -6,12 +6,12 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: () => import("../views/CardapioHome.vue"),
+      component: () => import("../views/CardapioPage.vue"),
     },
     {
       path: "/sobre",
       name: "sobre",
-      component: () => import("../views/SobreNos.vue"),
+      component: () => import("../views/SobrePage.vue"),
     },
     {
       path: "/contato",
