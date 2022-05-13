@@ -3,14 +3,14 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <div class="contato">
-    <RouterLink to="/">Voltar</RouterLink>
+  <main id="content" class="contato">
     <h1>Contatos</h1>
     <ul>
       <li>Telefone: 47 98765-43231</li>
       <li>Email: ifcgenerico@ifc.edu.br</li>
+      <RouterLink to="/">Voltar</RouterLink>
     </ul>
-  </div>
+  </main>
 </template>
 
 <style></style>
