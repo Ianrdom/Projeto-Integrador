@@ -4,6 +4,7 @@ import Dias from "@/components/BlocoDias.vue";
 export default {
   data() {
     return {
+      semanadata: new Date(),
       cardapio: [
         {
           dia: "seg",
