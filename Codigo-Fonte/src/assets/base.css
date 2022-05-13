@@ -8,7 +8,7 @@ body {
   background-color: #a3c99d;
   height: 100%;
   display: grid;
-  grid-template-columns: 30% 1fr 38%;
+  grid-template-columns: 30% 1fr 32%;
   grid-template-rows: 10% auto 10%;
   grid-template-areas:
     "header header header"
