@@ -6,7 +6,7 @@ export default {
     return {
       cardapio: [
         {
-          dia: "seg",
+          dia: "segunda",
           semanaday: 0,
           cardapio: [
             { prato: "Principal", comida: ["Carne Moída Com Batata"] },
@@ -28,7 +28,7 @@ export default {
           ],
         },
         {
-          dia: "terca",
+          dia: "terça",
           semanaday: "1",
           cardapio: [
             { prato: "Principal", comida: ["Carne Suína Com Batata"] },
@@ -102,6 +102,7 @@ export default {
       // get day no javascript para o dia atual
       /* caso de erro criar 2 cardapios nulos para domingo e sábado */
       cardapioAtual: [],
+      diadoCardapio: "",
     };
   },
   mounted() {
@@ -113,14 +114,17 @@ export default {
       this.cardapioAtual = this.cardapio.find(
         (cardapio) => cardapio.dia === dia
       ).cardapio;
+      this.diadoCardapio = dia;
     },
     semana() {
       const d = new Date();
       let day = d.getDay();
       if (day == 0 || day == 6) {
-        return (this.cardapioAtual = this.cardapio[0].cardapio);
+        this.cardapioAtual = this.cardapio[0].cardapio;
+        this.diadoCardapio = this.cardapio[0].dia;
       } else {
-        return (this.cardapioAtual = this.cardapio[day - 1].cardapio);
+        this.cardapioAtual = this.cardapio[day - 1].cardapio;
+        this.diadoCardapio = this.cardapio[day].dia;
       }
     },
   },
@@ -130,6 +134,6 @@ export default {
 <template>
   <main id="content">
     <Dias @selecionarDia="selecionarDia" />
-    <Cardapio :cardapio="cardapioAtual" />
+    <Cardapio :cardapio="cardapioAtual" :dia="diadoCardapio" />
   </main>
 </template>

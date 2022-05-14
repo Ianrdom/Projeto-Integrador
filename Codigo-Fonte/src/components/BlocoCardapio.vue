@@ -1,10 +1,15 @@
 <script>
 export default {
-  props: ["cardapio"],
+  props: ["cardapio", "dia"],
   data() {
     return {
-      dia: "segunda",
+      diaAlteravel: this.dia,
     };
+  },
+  methods: {
+    diadoCardapio(dia) {
+      this.diaAlteravel = dia;
+    },
   },
 };
 </script>

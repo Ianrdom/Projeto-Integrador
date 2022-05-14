@@ -1,9 +1,9 @@
 <template>
   <nav id="dias">
-    <p class="dia-da-semana" @click="$emit('selecionarDia', 'seg')">
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'segunda')">
       Segunda-Feira
     </p>
-    <p class="dia-da-semana" @click="$emit('selecionarDia', 'terca')">
+    <p class="dia-da-semana" @click="$emit('selecionarDia', 'terça')">
       Terça-Feira
     </p>
     <p class="dia-da-semana" @click="$emit('selecionarDia', 'quarta')">
