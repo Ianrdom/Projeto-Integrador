@@ -100,6 +100,7 @@ export default {
         },
       ],
       // get day no javascript para o dia atual
+      /* caso de erro criar 2 cardapios nulos para domingo e sábado */
       cardapioAtual: [],
     };
   },
@@ -116,7 +117,11 @@ export default {
     semana() {
       const d = new Date();
       let day = d.getDay();
-      this.cardapioAtual = this.cardapio[day - 1].cardapio;
+      if (day == 0 || day == 6) {
+        return (this.cardapioAtual = [this.cardapio[1].cardapio]);
+      } else {
+        return (this.cardapioAtual = this.cardapio[day - 1].cardapio);
+      }
     },
   },
 };
