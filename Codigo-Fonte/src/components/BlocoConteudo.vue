@@ -4,10 +4,10 @@ import Dias from "@/components/BlocoDias.vue";
 export default {
   data() {
     return {
-      semanadata: new Date(),
       cardapio: [
         {
           dia: "seg",
+          semanaday: 0,
           cardapio: [
             { prato: "Principal", comida: ["Carne Moída Com Batata"] },
             { prato: "Proteína Vegetariana", comida: ["Almôndega de Soja"] },
@@ -29,6 +29,7 @@ export default {
         },
         {
           dia: "terca",
+          semanaday: "1",
           cardapio: [
             { prato: "Principal", comida: ["Carne Suína Com Batata"] },
             { prato: "Proteína Vegetariana", comida: ["Ovo Mexido"] },
@@ -45,6 +46,7 @@ export default {
         },
         {
           dia: "quarta",
+          semanaday: "2",
           cardapio: [
             { prato: "Principal", comida: ["Fricasse de Frango"] },
             { prato: "Proteína Vegetariana", comida: ["Ovo Frito"] },
@@ -61,6 +63,7 @@ export default {
         },
         {
           dia: "quinta",
+          semanaday: "3",
           cardapio: [
             { prato: "Principal", comida: ["Frango Com Batata"] },
             {
@@ -80,6 +83,7 @@ export default {
         },
         {
           dia: "sexta",
+          semanaday: "4",
           cardapio: [
             { prato: "Principal", comida: ["Carne Suína Com Batata"] },
             { prato: "Proteína Vegetariana", comida: ["Carne de Soja"] },
@@ -99,12 +103,20 @@ export default {
       cardapioAtual: [],
     };
   },
+  mounted() {
+    this.semana();
+  },
   components: { Cardapio, Dias },
   methods: {
     selecionarDia(dia) {
       this.cardapioAtual = this.cardapio.find(
         (cardapio) => cardapio.dia === dia
       ).cardapio;
+    },
+    semana() {
+      const d = new Date();
+      let day = d.getDay();
+      this.cardapioAtual = this.cardapio[day - 1].cardapio;
     },
   },
 };
