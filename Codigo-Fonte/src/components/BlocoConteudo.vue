@@ -118,7 +118,7 @@ export default {
       const d = new Date();
       let day = d.getDay();
       if (day == 0 || day == 6) {
-        return (this.cardapioAtual = [this.cardapio[1].cardapio]);
+        return (this.cardapioAtual = this.cardapio[0].cardapio);
       } else {
         return (this.cardapioAtual = this.cardapio[day - 1].cardapio);
       }
