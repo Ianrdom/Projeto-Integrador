@@ -8,7 +8,7 @@ import { RouterLink } from "vue-router";
 
     <div>
       Este site tem o objetivo de facilitar a constatação do cardapio semanal de
-      forma objetiva e direta com um dominio própio do intituto federal.
+      forma objetiva e direta com um dominio própio do instituto federal.
       <p>Está sendo desenvolvido por Ian Roberto Dominoni 2INFO3</p>
       <strong>(Seu desenvolvimento ainda está em produção)</strong>
     </div>
