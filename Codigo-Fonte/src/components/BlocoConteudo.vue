@@ -124,7 +124,7 @@ export default {
         this.diadoCardapio = this.cardapio[0].dia;
       } else {
         this.cardapioAtual = this.cardapio[day - 1].cardapio;
-        this.diadoCardapio = this.cardapio[day].dia;
+        this.diadoCardapio = this.cardapio[day - 1].dia;
       }
     },
   },
