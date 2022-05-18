@@ -60,8 +60,12 @@ body {
 }
 a {
   cursor: pointer;
-  color: green;
+  color: black;
   text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 .dia-da-semana {
