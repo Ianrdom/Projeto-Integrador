@@ -98,10 +98,25 @@ a:hover {
   background-color: lightgray;
   flex: 1;
 }
-main h1 {
+#content h1 {
   text-align: center;
 }
-
+.login {
+  align-content: center;
+  margin: 0 auto 0 auto;
+}
+.BlocoLogin {
+  display: flex;
+  flex-direction: column;
+}
+.LoginInput {
+  margin: 10px auto 0 auto;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-color: white;
+  border: 1px solid black;
+}
 .items-header:hover {
   cursor: pointer;
 }

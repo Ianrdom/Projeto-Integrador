@@ -18,6 +18,16 @@ const router = createRouter({
       name: "contato",
       component: () => import("../views/ContatoPage.vue"),
     },
+    {
+      path: "/login",
+      name: "login",
+      component: () => import("../views/LoginPage.vue"),
+    },
+    {
+      path: "/usuario",
+      name: "usuario",
+      component: () => import("../views/UsuarioPage.vue"),
+    },
   ],
 });
 
