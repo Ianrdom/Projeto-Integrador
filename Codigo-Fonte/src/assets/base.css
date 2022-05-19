@@ -123,3 +123,7 @@ a:hover {
 .items-header {
   margin: 10px;
 }
+
+.preferencias li {
+  list-style-type: none;
+}
