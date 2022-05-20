@@ -27,6 +27,16 @@ const router = createRouter({
       path: "/usuario",
       name: "usuario",
       component: () => import("../views/UsuarioPage.vue"),
+      children: [
+        {
+          path: "alimentar",
+          component: () => import("../components/BlocoPref.vue"),
+        },
+        {
+          path: "acessibilidade",
+          component: () => import("../components/BlocoAcessibilidade.vue"),
+        },
+      ],
     },
   ],
 });

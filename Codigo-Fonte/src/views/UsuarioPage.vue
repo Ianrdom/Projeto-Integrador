@@ -1,19 +1,25 @@
 <script setup>
-import { RouterLink } from "vue-router";
+import { RouterView, RouterLink } from "vue-router";
 </script>
 
 <template>
-  <main id="content" class="usuario">
-    <h1>Usuario Autenticado</h1>
-    <h2>Prefencias Alimentares</h2>
-    <div class="preferencias">
-      <ul>
-        <li><input type="checkbox" /> Intolerante à lactose</li>
-        <li><input type="checkbox" /> Intolerante à glúten</li>
-        <li><input type="checkbox" /> Cardapio vegetariano</li>
-      </ul>
-    </div>
-    <RouterLink to="/">Voltar</RouterLink>
+  <aside id="sidenav">
+    <ul>
+      <li>
+        <RouterLink to="/usuario/acessibilidade"
+          >Acessibilidade visual</RouterLink
+        >
+      </li>
+      <li>
+        <RouterLink to="/usuario/alimentar"
+          >Preferencias alimentares</RouterLink
+        >
+      </li>
+    </ul>
+    <RouterLink to="/"> Voltar</RouterLink>
+  </aside>
+  <main id="content">
+    <RouterView />
   </main>
 </template>
 

@@ -17,7 +17,7 @@ body {
 }
 
 #footer {
-  border: 1px solid green;
+  border-top: 1px solid black;
 }
 
 #header {
@@ -41,6 +41,14 @@ body {
 }
 #content {
   grid-area: content;
+}
+#sidenav {
+  grid-area: aside;
+}
+#sidenav li {
+  list-style-type: square;
+  padding: 5px;
+  font-weight: bold;
 }
 #footer {
   grid-area: footer;
@@ -126,4 +134,7 @@ a:hover {
 
 .preferencias li {
   list-style-type: none;
+}
+.usuario {
+  margin: 10px;
 }
